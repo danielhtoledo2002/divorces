@@ -1,0 +1,20 @@
+clave,descripción
+1,De 1 a 999 habitantes
+2,De 1 000 a 1 999 habitantes
+3,De 2 000 a 2 499 habitantes
+4,De 2 500 a 4 999 habitantes
+5,De 5 000 a 9 999 habitantes
+6,De 10 000 a 14 999 habitantes
+7,De 15 000 a 19 999 habitantes
+8,De 20 000 a 29 999 habitantes
+9,De 30 000 a 39 999 habitantes
+10,De 40 000 a 49 999 habitantes
+11,De 50 000 a 74 999 habitantes
+12,De 75 000 a 99 999 habitantes
+13,De 100 000 a 249 999 habitantes
+14,De 250 000 a 499 999 habitantes
+15,De 500 000 a 999 999 habitantes
+16,De 1 000 000 a 1 499 999 habitantes
+17,De 1 500 000 y más habitantes
+98,No aplica
+99,No especificado

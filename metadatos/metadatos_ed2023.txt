@@ -1,0 +1,36 @@
+Identifier: MEX-INEGI.ESD5.03-ED-2023
+
+Title: Estadística de Divorcios 2023
+
+Description: El divorcio es la disolución jurídica definitiva de un matrimonio emitida por el juez, es decir, la separación legal de los cónyuges.
+
+Existen dos instancias a través de las cuales se efectúan los divorcios: El Tribunal Superior de Justicia del Estado, representado por los juzgados de lo Familiar, Civiles o Mixtos y las Direcciones Estatales del Registro Civil, que norman a su vez a las Oficialías de la misma institución.
+
+Para fines estadísticos, se distingue el tipo de trámite y la dependencia que proporciona la información: se denomina Divorcio Administrativo si se efectúa a través del Registro Civil, y Divorcio Judicial cuando se gestiona en algún Juzgado de lo Familiar, Civil o Mixto.
+
+La estadística de divorcios como fenómeno social fundamenta su importancia en la posibilidad de estudiar las disoluciones matrimoniales y caracteriza a los divorciantes con base a su perfil sociodemográfico con la finalidad de contextualizar los cambios económicos, culturales y políticos que motivan a la disolución del matrimonio. Así pues, el divorcio adquiere importancia fundamental dentro de las estadísticas vitales y constituye un objeto de captación de información de utilidad nacional, por lo que es indispensable producir información sobre divorcios considerando su presencia cada vez más cotidiana en la sociedad mexicana actual.
+
+El INEGI identifica elementos esenciales de las recomendaciones internacionales de la ONU con el fin de disponer de estadísticas vitales completas y continuas que garanticen a la población que los datos captados a través de los registros administrativos cumplan los principios rectores de cobertura universal, continuidad, confidencialidad y difusión regular.
+
+Modified: 2024-09-27 
+
+Publisher: Instituto Nacional de Estadística y Geografía, INEGI
+
+Mbox: atencion.usuarios@inegi.org.mx
+
+License: https://www.inegi.org.mx/inegi/terminos.html
+
+DataDictionary: https://www.inegi.org.mx/rnm/index.php/catalog/1031/data-dictionary
+
+Keyword: "civil", "conyugal", "desintegración", "divorcio", "estado", "familiar", "institución", "matrimonio", "nupcialidad", "población", "registro", "separación", "violencia"
+
+ContactPoint: Mtro. J. Armando Aguiar Rodríguez, 800 111 4634
+
+Temporal: 2023-01-01-2023-12-31
+
+Spatial: Estados Unidos Mexicanos
+
+AccrualPeriodicity: Anualmente
+
+Distribution: https://www.inegi.org.mx/programas/ed/
+

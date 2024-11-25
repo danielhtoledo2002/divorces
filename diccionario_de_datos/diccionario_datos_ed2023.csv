@@ -1,0 +1,65 @@
+#,nombre_campo,longitud,tipo,nemonico,catalogo,rango_claves
+1,Tipo de trámite.,1,N,tipo_div,tipo_divorcio,"1,2"
+2,Entidad de registro.,2,C,ent_regis,entidad_municipio_localidad_2022,01..32
+3,Municipio o alcaldía de registro.,3,C ,mun_regis,entidad_municipio_localidad_2022,001..570
+4,Localidad de registro.,4,C ,loc_regis,entidad_municipio_localidad_2022,"0001..6999,7777,9999"
+5,Tamaño de localidad de registro.,2,N ,tloc_regis,localidad_agrupada,"1..17,99"
+6,Entidad de registro del matrimonio.,2,C ,ent_mat,entidad_municipio_localidad_2022,01..32
+7,Municipio o alcaldía de registro del matrimonio.,3,C ,mun_mat,entidad_municipio_localidad_2022,001..570
+8,Localidad de registro del matrimonio.,4,C ,local_mat,entidad_municipio_localidad_2022,"0001..6999,7777,9999"
+9,Tamaño de localidad de registro del matrimonio.,2,N ,tloc_mat,localidad_agrupada,"1..17,99"
+10,Día de registro del matrimonio.,2,N ,dia_mat,dia,"1..31,99"
+11,Mes de registro del matrimonio.,2,N ,mes_mat,mes,"1..12,99"
+12,Año de registro del matrimonio.,4,N ,anio_mat,año_registro,"1950..2023,9999"
+13,Día de registro de la demanda.,2,N ,dia_reg,dia,"1..31,99"
+14,Mes de registro de la demanda.,2,N ,mes_reg,mes,"1..12,99"
+15,Año de registro de la demanda.,4,N ,anio_reg,año_registro,"1950..2023,9999 "
+16,Día de la sentencia.,2,N ,dia_sen,dia,"1..31,99"
+17,Mes de la sentencia.,2,N ,mes_sen,mes,"1..12,99"
+18,Año de la sentencia.,4,N ,anio_sen,año_sentencia,"1982..2023,9999"
+19,Día de ejecutoria del divorcio.,2,N ,dia_eje,dia,"1..31,99"
+20,Mes de ejecutoria del divorcio.,2,N ,mes_eje,mes,1..12
+21,Año de ejecutoria del divorcio.,4,N ,anio_eje,año_ejecutoria,2023
+22,Persona que inició el juicio.,1,N ,ini_juic,persona_que_inicio,"1,2,3,9"
+23,A favor de quien se resolvió el juicio.,1,N ,favor,a_favor,"1,2,3,9"
+24,Causas de divorcio.,2,N ,causa,causas_divorcio,"1..28,99"
+25,Número de hijos en el matrimonio.,2,N ,hijos,numero_de_hijos,"0..25,98,99"
+26,Número de hijos menores de edad.,2,N ,hij_men,numero_de_hijos,"0..25,98,99"
+27,Persona a quien se otorga la custodia.,2,N ,custodia,custodia,"0..4,98,99"
+28,Número de hijos en custodia.,2,N ,cus_hij,numero_de_hijos,"0..25,98,99"
+29,Persona a quien se le asigna la patria potestad.,2,N ,pat_pot,patria_potestad,"0..4,98,99"
+30,Número de hijos en patria potestad.,2,N ,pat_hij,numero_de_hijos,"0..25,98,99"
+31,Personas a quien se le asigna la pensión alimenticia.,2,N ,pension,pension_alimenticia,"1..4,12,13,98,99"
+32,Número de hijos a quienes se les asigna la pensión alimenticia.,2,N ,pen_hij,numero_de_hijos,"0..25,98,99"
+33,Nacionalidad del primer divorciante.,1,N ,naci_div1,nacionalidad,"1,2"
+34,Edad al divorcio del primer divorciante.,3,N ,edad_div1,edad,"12..99,999"
+35,Año de nacimiento del primer divorciante.,4,N ,nacim_div1,año_nacimiento,"1920..2006,9999 "
+36,Estado conyugal (civil) anterior del primer divorciante.,1,N ,eciv_adiv1,estado_conyugal,"1..5,9"
+37,Entidad de residencia habitual del primer divorciante.,2,C ,ent_rhdiv1,entidad_municipio_localidad_2022,"01..35,99"
+38,Municipio o alcaldía de residencia habitual del primer divorciante.,3,C ,mun_rhdiv1,entidad_municipio_localidad_2022,"001..570,998,999"
+39,Localidad de residencia habitual del primer divorciante.,4,C ,loc_rhdiv1,entidad_municipio_localidad_2022,"0001..6999,7777,9998,9999"
+40,Tamaño de localidad de residencia habitual del primer divorciante.,2,N ,tloc_div1,localidad_agrupada,"1..17,98,99"
+41,Nivel de escolaridad del primer divorciante (escolaridad).,1,N ,escol_div1,escolaridad,0..9
+42,Condición de actividad económica del primer divorciante.,1,N ,con_acdiv1,condicion_actividad_economica,"1,2,9"
+43,A qué se dedica el primer divorciante.,1,N ,dedic_div1,dedicado_a,1..9
+44,Posición en el trabajo del primer divorciante.,1,N ,postr_div1,posicion_trabajo,1..9
+45,Sexo del primer divorciante.,1,N ,sexo_div1,condicion_biologica,"1,2"
+46,Nacionalidad del segundo divorciante.,1,N ,naci_div2,nacionalidad,"1,2"
+47,Edad al divorcio del segundo divorciante.,3,N ,edad_div2,edad,"12..99,999"
+48,Año de nacimiento del segundo divorciante.,4,N ,nacim_div2,año_nacimiento,"1920..2006,9999"
+49,Estado conyugal (civil) anterior del segundo divorciante.,1,N ,eciv_adiv2,estado_conyugal,"1..5,9"
+50,Entidad de residencia habitual del segundo divorciante.,2,C ,ent_rhdiv2,entidad_municipio_localidad_2022,"01..35,99"
+51,Municipio o alcaldía de residencia habitual del segundo divorciante.,3,C ,mun_rhdiv2,entidad_municipio_localidad_2022,"001..570,998,999"
+52,Localidad de residencia habitual del segundo divorciante.,4,C ,loc_rhdiv2,entidad_municipio_localidad_2022,"0001..6999,7777,9998,9999"
+53,Tamaño de localidad de residencia habitual del segundo divorciante.,2,N ,tloc_div2,localidad_agrupada,"1..17,98,99"
+54,Nivel de escolaridad del segundo divorciante (escolaridad).,1,N ,escol_div2,escolaridad,0..9
+55,Condición de actividad económica del segundo divorciante.,1,N ,con_acdiv2,condicion_actividad_economica,"1,2,9"
+56,A qué se dedica el segundo divorciante.,1,N ,dedic_div2,dedicado_a,1..9
+57,Posición en el trabajo del segundo divorciante.,1,N ,postr_div2,posicion_trabajo,1..9
+58,Sexo del segundo divorciante.,1,N ,sexo_div2,condicion_biologica,"1,2"
+59,Duración social del matrimonio.,2,N ,dura_soc,duracion_matrimonio,1..99
+60,Duración legal del matrimonio.,2,N ,dura_leg,duracion_matrimonio,1..99
+61,Edad al matrimonio del primer divorciante.,2,N ,edad_mdiv1,edad,12..99
+62,Edad al matrimonio del segundo divorciante.,2,N ,edad_mdiv2,edad,12..99
+63,Tipo de divorciante.,1,N ,t_dvante,tipo_divorciantes,"1,2,3"
+64,Distritos de registro de Oaxaca.,3,N ,dis_reoax,entidad_municipio_localidad_2022,"901..930,998,999"
